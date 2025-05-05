@@ -85,7 +85,7 @@ public class ExecutionManager {
     }
 
     private void saveResults(int threadCount, int valid, int invalid, long duration) throws IOException {
-        String filename = String.format("%s_%d_threads.txt", outputPrefix, threadCount);
+        String filename = String.format("%s%d_threads.txt", outputPrefix, threadCount);
         String content = String.format(
                 "Threads: %d%nTempo: %d ms%nVálidos: %d%nInválidos: %d%n",
                 threadCount, duration, valid, invalid);
