@@ -1,0 +1,4 @@
+Threads: 3
+Tempo: 527 ms
+Válidos: 44161
+Inválidos: 4377650
